@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FindStroem</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="b2c_info">En smartphone der løber tør for strøm, er et velkendt problem i Danmark og resten af verden. Digitaliseringen, samt det stigende behov og brug af mobilen, betyder også at mange føler sig isoleret når mobilen går ud, og lige så mange bliver forhindret i deres arbejde eller tilbagehold i andre heensender. \n\nFindStroem, er ChargeSmart.dk’s nye gratis app og social service, som giver et overblik over, hvor smartphones og tablets kan oplades, når man er på farten, ude at shoppe, i byen – eller ganske enkelt igen er ved at løbe tør for strøm og ikke har en ChargeSmart eller oplader med sig.\n\nVi tilbyder vore kunder hos ChargeSmart, uanset hvor de befinder, en sikkerhed for aldrig at løbe tør for strøm, og altid være tilgængelig. Vi har en målsætning om, at kunne tilbyde denne sikkerhed og service, til hele Danmarks befolkning, og samtidig fremme alternativ opladning både i Danmark og resten af verden.\n\n- Derfor startede vi FindStroem</string>
+
+</resources>

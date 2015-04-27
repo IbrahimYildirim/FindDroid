@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:background="@color/grey_background">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Indstillinger"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textSize="28sp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:onClick="reviewClicked">
+
+            <ImageView
+                android:id="@+id/rating_star"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/star"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Anmeld i Play Store"
+                android:textSize="22sp"
+                android:layout_toRightOf="@+id/rating_star"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+            </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:onClick="shareClicked">
+
+            <ImageView
+                android:id="@+id/share_btn"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/share"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true" />
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Del Appen"
+                android:textSize="22sp"
+                android:layout_toRightOf="@+id/share_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

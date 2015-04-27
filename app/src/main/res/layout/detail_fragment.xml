@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/detail_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:id="@+id/detail_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Marcellos Cafe og Restaurent"
+                android:lines="2"
+                android:ellipsize="end"
+                android:textSize="22sp"/>
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:id="@+id/detail_adress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:lines="1"
+                android:layout_marginTop="20dp"
+                android:text="Bredgade 42"/>
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:id="@+id/detail_city"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:text="8000 Kolding"/>
+
+            <dk.chargesmart.findstroem.Views.AutoResizeTextView
+                android:id="@+id/detail_phone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:lines="1"
+                android:layout_marginTop="5dp"
+                android:text="1234 5678"/>
+
+            <TextView
+                android:id="@+id/detail_open"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:lines="1"
+                android:layout_marginTop="15dp"
+                android:text="Åben idag: 10-18"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="10dp"/>
+        
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Vis Vej"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:onClick="showDirectionClicked"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Åben Side"
+            android:background="@android:color/transparent"
+            android:textColor="@color/blue"
+            android:textSize="24sp"
+            android:onClick="openWebPageClicked"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+
+</LinearLayout>
